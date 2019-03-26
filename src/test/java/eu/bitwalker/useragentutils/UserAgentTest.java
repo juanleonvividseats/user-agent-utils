@@ -66,6 +66,5 @@ public class UserAgentTest {
 		UserAgent userAgent = UserAgent.parseUserAgentString("Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)");
 		UserAgent retrievedUserAgent = UserAgent.valueOf(userAgent.toString());
 		assertEquals(userAgent, retrievedUserAgent);
-	}
-	
+	}	
 }
